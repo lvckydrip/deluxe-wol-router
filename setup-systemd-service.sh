@@ -4,7 +4,7 @@ script_dir=$(dirname "$(realpath "$0")")
 main_path="$script_dir/main.js"
 
 echo "Started installing node..."
-sudo apt install node -y
+sudo apt install npm -y
 echo "Successfully installed node."
 
 echo "Creating systemd service..."
